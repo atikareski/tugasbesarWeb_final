@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    
+    background-color: rgb(252, 168, 71);
+}
+
+h1{
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: #ffffff;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+li a:hover {
+  color: rgb(255, 230, 200);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: rgb(255, 148, 25);
+}
+
+.container-page{
+    padding: 100px 80px;
+}
+
+.container-page p{
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+
+.container-page img{
+    height: auto;
+    margin-right: 60px;
+}
+
+.pesan-sekarang a{
+    background-color: rgb(248, 106, 24);
+    border: none;
+    font-size: 15px;
+}
+
+.pesan-sekarang a:hover{
+    background-color: rgb(251, 156, 46);
+}
+
+.daftar-kendaraan{
+    background-color: rgb(218, 151, 75);
+}
+
+.link-daftar-kendaraan a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: rgb(109, 105, 105) 2px 2px 2px;
+}
+
+.link-daftar-kendaraan a:hover{
+    color: rgb(255, 230, 200);
+}
+
+.lokasi{
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 148, 25);
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+.login-container{
+    width: 370px;
+    margin: 135px auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 178, 90);
+}
+
+.login-container h2{
+    margin-bottom: 40px;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+.login-container input{
+    padding: 13px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.login-container button{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(248, 106, 24);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    background-color: rgb(255, 152, 34);
+}
+
+.judul-daftar{
+    margin: 30px 0px 0px 50px;
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+.tabel-daftar{
+    margin: 0px 120px 20px 0px;
+}
+
+table{
+    width: 100%;
+    margin: 30px 60px 0px 60px;
+    background-color: white;
+}
+
+
+table th, table td{
+    padding: 20px;
+    text-align: center;
+}
+
+table th{
+    background-color: rgb(255, 174, 81);
+    color: white;
+}
+
+.tabel-daftar a{
+    text-decoration: none;
+    background-color: rgb(248, 106, 24);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.tabel-daftar a:hover{
+    background-color: rgb(251, 156, 46);
+}
+
+.judul-form{
+    margin: 30px 0px 0px 40px;
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+.form-container{
+    background-color: rgb(255, 178, 90);
+    width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    text-shadow: rgb(104, 103, 103) 2px 2px 2px;
+}
+
+.form-container input{
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+}
+
+.form-container select{
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 15px;
+}
+
+.form-container button{
+    background-color: rgb(248, 106, 24);
+    padding: 10px 35px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.form-container button:hover{
+    background-color: rgb(251, 156, 46);
+}
+
+.userPage-button{
+    margin: 30px 60px;
+}
+
+footer{
+    margin-top: 10px;
+}
